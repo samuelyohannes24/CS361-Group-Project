@@ -74,7 +74,6 @@ Code:
 
 
 
-
 **VirusTotal API Integration**
 ![image](https://github.com/user-attachments/assets/ed0312d3-0f23-487f-a6d6-32afab4a49ef)
 
@@ -153,7 +152,7 @@ Submitting a URL for Scanning
 
 ![image](https://github.com/user-attachments/assets/d19f96c2-a4db-436e-8ba7-60bd30f13716)
 
-
+### ***For more advanced code:https://docs.virustotal.com/reference/overview***
 
 
 
