@@ -9,6 +9,7 @@ Tom: 'Have I been Pwed' and 'VirusTotal '
 Searching method:
 
 **API Authentication **
+
 All API requests require an API key. You can authenticate using either of the following headers:
     Authorization: Bearer YOUR_API_KEY
     x-apikey: YOUR_API_KEY
@@ -44,18 +45,6 @@ Retrieving IP Address Report
 
 
 ![image](https://github.com/user-attachments/assets/d19f96c2-a4db-436e-8ba7-60bd30f13716)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
