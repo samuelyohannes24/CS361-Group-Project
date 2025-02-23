@@ -67,7 +67,6 @@ When integrated, Shodan offers a variety of methods which allows searching, on d
 **Utility Methods**
 **GET** /tools/httpheaders
 **GET** /tools/myip
-
 **API Status Methods**
 **GET** /api-info
 
