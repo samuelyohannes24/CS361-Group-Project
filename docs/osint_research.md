@@ -9,24 +9,32 @@ VirusTotal can be integrated using an API key, which can be obtained by creating
 
 ### **Integrating VirusTotal API into a Web App**
 
-1️⃣ **Get API Key** → Sign up at VirusTotal and get your API key.  
-2️⃣ **Backend Setup** → Use Python (Flask) to send API requests.  
-3️⃣ **Frontend (React/JS)** → Upload file and send to backend.  
-4️⃣ **Show Results** → Display scan report (safe, suspicious, or malicious).  
+    1️⃣ **Get API Key** → Sign up at VirusTotal and get your API key.  
+    2️⃣ **Backend Setup** → Use Python (Flask) to send API requests.  
+    3️⃣ **Frontend (React/JS)** → Upload file and send to backend.  
+    4️⃣ **Show Results** → Display scan report (safe, suspicious, or malicious).  
 
 
-Searching method:
+### **Searching Method**
 
-**API Authentication **
+---
+
+#### **API Authentication**
 
 All API requests require an API key. You can authenticate using either of the following headers:
-    Authorization: Bearer YOUR_API_KEY
-    x-apikey: YOUR_API_KEY
 
- **File Scanning & Reports**
-    Uploading and Scanning a File Code:
-    **POST** /files
-    -> Uploads a file for malware scanning.
+- `Authorization: Bearer YOUR_API_KEY`
+- `x-apikey: YOUR_API_KEY`
+
+---
+
+#### **File Scanning & Reports**
+
+- **Uploading and Scanning a File**  
+  **Code:**  
+  ```http
+  POST /files
+-> Uploads a file for malware scanning.
     
 **Get File Analysis Report**
     Getting File Scan Report Code:
