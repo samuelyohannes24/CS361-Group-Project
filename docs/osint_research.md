@@ -1,7 +1,8 @@
 Tom: Shodan and VirusTotal 
 
 **Shodan**
-Shodan can be integrated using an API key which can be obtained by creating a Shodan account.
+Shodan can be integrated using an API key which can be obtained by creating a Shodan account at https://account.shodan.io/.
+
 When integrated, Shodan offers a variety of methods which allows searching, on demand scanning, network alerts, notifiers, directory methods, and more.
 
 
