@@ -71,7 +71,7 @@ Code:
 
 ### ***For more advanced code: https://haveibeenpwned.com/API/v3***
 
-
+---
 
 
 **VirusTotal API Integration**
@@ -155,7 +155,7 @@ Submitting a URL for Scanning
 ### ***For more advanced code:https://docs.virustotal.com/reference/overview***
 
 
-
+---
 
 
 
