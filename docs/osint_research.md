@@ -41,30 +41,38 @@ All API requests require an API key. You can authenticate using either of the fo
 **Get File Analysis Report**
     Getting File Scan Report 
    **Code:** 
-    ```http
+
     
     GET /files/{id}
     
 -> Retrieves the analysis results for a specific file.
 
 **URL Scanning & Reports**
-    Submitting a URL for Scanning Code:
+    Submitting a URL for Scanning 
+    Code:
+    
     **POST** /urls
-    -> Submits a URL for scanning and analysis.
+-> Submits a URL for scanning and analysis.
 
 **Get URL Analysis Report**
-    Getting URL Scan Report Code:
+    Getting URL Scan Report 
+    Code:
+    
     **GET** /urls/{url_id}
-    -> Retrieves the latest scan results of a URL.
+-> Retrieves the latest scan results of a URL.
 
 **Domain and IP Address Analysis**
-    Retrieving Domain Report
+    Retrieving Domain Report 
+    Code:
+    
     **GET** /domains/{domain}
-    ->Fetches information about a domain, including reputation and security analysis.
+->Fetches information about a domain, including reputation and security analysis.
 
 **Retrieving IP Address Report**
+    Code:
+    
     **GET** /ip_addresses/{ip}
-    ->Provides security insights about a given IP address.
+->Provides security insights about a given IP address.
 
 
 ![image](https://github.com/user-attachments/assets/d19f96c2-a4db-436e-8ba7-60bd30f13716)
