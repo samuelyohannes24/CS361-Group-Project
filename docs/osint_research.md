@@ -1,4 +1,73 @@
 Tom: 'Have I been Pwed' and 'VirusTotal '
+
+Have I Been Pwned (HIBP) can be integrated using an API key, which can be obtained by creating an account at [https://haveibeenpwned.com/API/Key](https://haveibeenpwned.com/API/Key).
+
+---
+
+### **Integrating Have I Been Pwned API into a Web App**
+
+1️⃣ **Get API Key** → Sign up at HIBP and get your API key.  
+2️⃣ **Backend Setup** → Use Python (Flask) to send API requests.  
+3️⃣ **Frontend (React/JS)** → Input email or username and send to backend.  
+4️⃣ **Show Results** → Display breach data (e.g., breached sites, dates, and details).  
+
+---
+
+### **Searching Method**
+
+---
+
+#### **API Authentication**
+
+All API requests require an API key. You must include the API key in the request header:
+
+- `hibp-api-key: YOUR_API_KEY`
+
+---
+
+#### **Email Breach Search**
+
+- **Checking if an Email is Breached**  
+  **Code:**  
+  ```http
+  GET /breachedaccount/{email}
+-> Retrieves a list of breaches where the specified email was found.
+
+Paste Account Search
+Checking if an Email is in Pastes
+Code:
+
+    GET /pasteaccount/{email}
+-> Retrieves a list of pastes where the specified email was found.
+
+Password Search
+Checking if a Password is Compromised
+Code:
+
+    GET /pwnedpassword/{password}
+-> Checks if the password has been exposed in any breaches 
+
+Domain Search
+Retrieving Breaches for a Domain
+Code:
+
+    GET /breaches?domain={domain}
+-> Fetches a list of breaches for the specified domain.
+
+Data Classes
+Retrieving All Data Classes
+Code:
+
+    GET /dataclasses
+-> Provides a list of all data classes (e.g., emails, passwords, usernames) that have been exposed in breaches.
+
+
+![image](https://github.com/user-attachments/assets/85fbcd36-7e83-46a4-8e68-d364872e9e10)
+
+
+
+
+
 **VirusTotal API Integration**
 ![image](https://github.com/user-attachments/assets/ed0312d3-0f23-487f-a6d6-32afab4a49ef)
 
@@ -10,19 +79,6 @@ VirusTotal can be integrated using an API key, which can be obtained by creating
 ### **Integrating VirusTotal API into a Web App**
 
 1️⃣ **Get API Key** → Sign up at VirusTotal and get your API key.  
-    Code:
-        -`import requests
-
-API_KEY = "YOUR_API_KEY"
-HEADERS = {"x-apikey": API_KEY}
-
-def scan_file(file_path):
-    url = "https://www.virustotal.com/api/v3/files"
-    with open(file_path, "rb") as file:
-        files = {"file": (file_path, file)}
-        response = requests.post(url, headers=HEADERS, files=files)
-    return response.json()`
-
 2️⃣ **Backend Setup** → Use Python (Flask) to send API requests.  
 3️⃣ **Frontend (React/JS)** → Upload file and send to backend.  
 4️⃣ **Show Results** → Display scan report (safe, suspicious, or malicious).  
