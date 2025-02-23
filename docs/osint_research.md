@@ -6,37 +6,42 @@ Tom: 'Have I been Pwed' and 'VirusTotal '
 Searching method:
 
 
-
- ** **API Authentication ** **
+**API Authentication **
 All API requests require an API key. You can authenticate using either of the following headers:
     Authorization: Bearer YOUR_API_KEY
     x-apikey: YOUR_API_KEY
 
-File Scanning and Analysis
-    Uploading and Scanning a File
+ File Scanning & Reports
+    Uploading and Scanning a File Code:
     **POST** /files
     -> Uploads a file for malware scanning.
     
-Uploads a file for malware scanning.
-    Getting File Scan Report
+Get File Analysis Report
+    Getting File Scan Report Code:
     **GET** /files/{id}
     -> Retrieves the analysis results for a specific file.
 
-URL Scanning and Analysis
-    Submitting a URL for Scanning
-    POST /urls
+URL Scanning & Reports
+    Submitting a URL for Scanning Code:
+    **POST** /urls
     -> Submits a URL for scanning and analysis.
+
+Get URL Analysis Report
+    Getting URL Scan Report Code:
+    **GET** /urls/{url_id}
+    -> Retrieves the latest scan results of a URL.
 
 Domain and IP Address Analysis
     Retrieving Domain Report
-    GET /domains/{domain}
-    Fetches information about a domain, including reputation and security analysis.
+    **GET** /domains/{domain}
+    ->Fetches information about a domain, including reputation and security analysis.
 
 Retrieving IP Address Report
-    GET /ip_addresses/{ip}
-    Provides security insights about a given IP address.
+    **GET** /ip_addresses/{ip}
+    ->Provides security insights about a given IP address.
 
 
+![image](https://github.com/user-attachments/assets/d19f96c2-a4db-436e-8ba7-60bd30f13716)
 
 
 
