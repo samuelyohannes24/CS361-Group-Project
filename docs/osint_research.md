@@ -14,32 +14,32 @@ All API requests require an API key. You can authenticate using either of the fo
     Authorization: Bearer YOUR_API_KEY
     x-apikey: YOUR_API_KEY
 
- File Scanning & Reports
+ **File Scanning & Reports**
     Uploading and Scanning a File Code:
     **POST** /files
     -> Uploads a file for malware scanning.
     
-Get File Analysis Report
+**Get File Analysis Report**
     Getting File Scan Report Code:
     **GET** /files/{id}
     -> Retrieves the analysis results for a specific file.
 
-URL Scanning & Reports
+**URL Scanning & Reports**
     Submitting a URL for Scanning Code:
     **POST** /urls
     -> Submits a URL for scanning and analysis.
 
-Get URL Analysis Report
+**Get URL Analysis Report**
     Getting URL Scan Report Code:
     **GET** /urls/{url_id}
     -> Retrieves the latest scan results of a URL.
 
-Domain and IP Address Analysis
+**Domain and IP Address Analysis**
     Retrieving Domain Report
     **GET** /domains/{domain}
     ->Fetches information about a domain, including reputation and security analysis.
 
-Retrieving IP Address Report
+**Retrieving IP Address Report**
     **GET** /ip_addresses/{ip}
     ->Provides security insights about a given IP address.
 
