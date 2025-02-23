@@ -9,10 +9,23 @@ VirusTotal can be integrated using an API key, which can be obtained by creating
 
 ### **Integrating VirusTotal API into a Web App**
 
-    1️⃣ **Get API Key** → Sign up at VirusTotal and get your API key.  
-    2️⃣ **Backend Setup** → Use Python (Flask) to send API requests.  
-    3️⃣ **Frontend (React/JS)** → Upload file and send to backend.  
-    4️⃣ **Show Results** → Display scan report (safe, suspicious, or malicious).  
+1️⃣ **Get API Key** → Sign up at VirusTotal and get your API key.  
+    Code:
+        -`import requests
+
+API_KEY = "YOUR_API_KEY"
+HEADERS = {"x-apikey": API_KEY}
+
+def scan_file(file_path):
+    url = "https://www.virustotal.com/api/v3/files"
+    with open(file_path, "rb") as file:
+        files = {"file": (file_path, file)}
+        response = requests.post(url, headers=HEADERS, files=files)
+    return response.json()`
+
+2️⃣ **Backend Setup** → Use Python (Flask) to send API requests.  
+3️⃣ **Frontend (React/JS)** → Upload file and send to backend.  
+4️⃣ **Show Results** → Display scan report (safe, suspicious, or malicious).  
 
 
 ### **Searching Method**
