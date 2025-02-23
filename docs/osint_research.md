@@ -49,27 +49,27 @@ All API requests require an API key. You can authenticate using either of the fo
 
 #### **URL Scanning & Reports**
 Submitting a URL for Scanning 
-    Code:
+     **Code:**
     
     **POST** /urls
 -> Submits a URL for scanning and analysis.
 
 ####**Get URL Analysis Report**
     Getting URL Scan Report 
-    Code:
+     **Code:**
     
     **GET** /urls/{url_id}
 -> Retrieves the latest scan results of a URL.
 
 ####**Domain and IP Address Analysis**
     Retrieving Domain Report 
-    Code:
+     **Code:**
     
     **GET** /domains/{domain}
 ->Fetches information about a domain, including reputation and security analysis.
 
 ####**Retrieving IP Address Report**
-    Code:
+     **Code:**
     
     **GET** /ip_addresses/{ip}
 ->Provides security insights about a given IP address.
