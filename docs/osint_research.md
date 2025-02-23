@@ -38,7 +38,7 @@ All API requests require an API key. You can authenticate using either of the fo
   
 -> Uploads a file for malware scanning.
     
-#### **Get File Analysis Report**
+**Get File Analysis Report**
     Getting File Scan Report 
    **Code:** 
 
@@ -47,7 +47,7 @@ All API requests require an API key. You can authenticate using either of the fo
     
 -> Retrieves the analysis results for a specific file.
 
-#### **URL Scanning & Reports**
+**URL Scanning & Reports**
 Submitting a URL for Scanning 
      **Code:**
     
@@ -61,7 +61,7 @@ Submitting a URL for Scanning
     **GET** /urls/{url_id}
 -> Retrieves the latest scan results of a URL.
 
-####**Domain and IP Address Analysis**
+**Domain and IP Address Analysis**
     Retrieving Domain Report 
      **Code:**
     
