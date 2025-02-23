@@ -1,7 +1,17 @@
 Tom: 'Have I been Pwed' and 'VirusTotal '
 **VirusTotal API Integration**
-VirusTotal can be integrated using an API key, which can be obtained by creating an account at https://www.virustotal.com/gui/join.
 
+-VirusTotal can be integrated using an API key, which can be obtained by creating an account at https://www.virustotal.com/gui/join.
+
+File Scanning and Analysis
+Uploading and Scanning a File
+POST /files
+
+Uploads a file for malware scanning.
+Getting File Scan Report
+GET /files/{id}
+
+Retrieves the analysis results for a specific file.
 
 
 
