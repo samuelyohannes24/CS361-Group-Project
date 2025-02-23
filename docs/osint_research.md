@@ -33,13 +33,19 @@ All API requests require an API key. You can authenticate using either of the fo
 - **Uploading and Scanning a File**  
   **Code:**  
   ```http
+  
   POST /files
+  
 -> Uploads a file for malware scanning.
     
 **Get File Analysis Report**
-    Getting File Scan Report Code:
-    **GET** /files/{id}
-    -> Retrieves the analysis results for a specific file.
+    Getting File Scan Report 
+   **Code:** 
+    ```http
+    
+    GET /files/{id}
+    
+-> Retrieves the analysis results for a specific file.
 
 **URL Scanning & Reports**
     Submitting a URL for Scanning Code:
