@@ -1,4 +1,28 @@
-Tom: Shodan and VirusTotal 
+Tom: 'Have I been Pwed' and 'VirusTotal '
+**VirusTotal API Integration**
+VirusTotal can be integrated using an API key, which can be obtained by creating an account at https://www.virustotal.com/gui/join.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Shodan**
 
