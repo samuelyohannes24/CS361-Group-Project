@@ -2,7 +2,7 @@ Tom: 'Have I been Pwed' and 'VirusTotal '
 **VirusTotal API Integration**
 
 
-**VirusTotal** ![image](https://github.com/user-attachments/assets/5303c736-ea02-4aa3-acd2-bf35b4d19879)
+**VirusTotal** ![image](https://github.com/user-attachments/assets/5303c736-ea02-4aa3-acd2-bf35b4d19879)l
 
 -VirusTotal can be integrated using an API key, which can be obtained by creating an account at https://www.virustotal.com/gui/join.
 
