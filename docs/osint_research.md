@@ -1,10 +1,12 @@
 Tom: 'Have I been Pwed' and 'VirusTotal '
 **VirusTotal API Integration**
 
+
+**VirusTotal** ![image](https://github.com/user-attachments/assets/5303c736-ea02-4aa3-acd2-bf35b4d19879)
+
 -VirusTotal can be integrated using an API key, which can be obtained by creating an account at https://www.virustotal.com/gui/join.
 
 Searching method:
-
 
 **API Authentication **
 All API requests require an API key. You can authenticate using either of the following headers:
